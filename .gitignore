@@ -3,3 +3,12 @@
 
 *.xcframework.zip
 *.xcframework
+
+# SPM build artifacts
+dist/
+artifacts/*.zip
+artifacts/*/
+!artifacts/.gitkeep
+__pycache__/
+*.pyc
+.build/
